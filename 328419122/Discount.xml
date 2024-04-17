@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<table>
+  <Sale>
+    <ProductName>VH1.18</ProductName>
+    <pDiscount>10</pDiscount>
+  </Sale>
+  <Sale>
+    <ProductName>Create</ProductName>
+    <pDiscount>15</pDiscount>
+  </Sale>
+</table>

@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="_328419122.Admin.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="../App_UI/StyleSheet1.css?v=3" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="Brow">
+            <asp:Button ID="Button4" CssClass="Button" runat="server" Text="Orders" OnClick="Button4_Click" />
+            <asp:Button ID="Button3" CssClass="Button" runat="server" Text="Products" OnClick="Button3_Click" />
+            <asp:Button ID="Button2" CssClass="Button" runat="server" Text="Users" OnClick="Button2_Click" />
+            <asp:Button ID="Button5" CssClass="Button" runat="server" Text="Comments" OnClick="Button5_Click"/>
+            <asp:Button ID="Button6" CssClass="Button" runat="server" Text="Statistics" OnClick="Button6_Click" />
+            <asp:Button ID="Button1" CssClass="Button" runat="server" Text="Logout" OnClick="Button1_Click" />
+
+            <br />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

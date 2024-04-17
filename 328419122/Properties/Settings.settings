@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="_328419122.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="_328419122_localhost_RateService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://localhost:44308/RateService.asmx</Value>
+    </Setting>
+    <Setting Name="_328419122_localhostB_Bank" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://localhost:44308/BankService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
